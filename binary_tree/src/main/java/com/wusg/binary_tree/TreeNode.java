@@ -6,12 +6,13 @@ package com.wusg.binary_tree;
  * @author WuSG
  * @date : 4/1/21 1:42 PM
  */
-public class Node {
+public class TreeNode {
     public int value;
-    public Node leftNode;
-    public Node rightNode;
+    public TreeNode leftNode;
+    public TreeNode rightNode;
+    public TreeNode next;
 
-    public Node(int value, Node leftNode, Node rightNode) {
+    public TreeNode(int value, TreeNode leftNode, TreeNode rightNode) {
         this.value = value;
         this.leftNode = leftNode;
         this.rightNode = rightNode;
