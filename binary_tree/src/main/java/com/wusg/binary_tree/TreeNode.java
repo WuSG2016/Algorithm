@@ -17,4 +17,8 @@ public class TreeNode {
         this.leftNode = leftNode;
         this.rightNode = rightNode;
     }
+
+    public TreeNode(int value) {
+        this.value = value;
+    }
 }
